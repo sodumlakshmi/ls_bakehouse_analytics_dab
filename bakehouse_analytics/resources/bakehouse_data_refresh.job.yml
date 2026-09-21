@@ -24,12 +24,12 @@ resources:
       tasks:
         - task_key: customer360_task
           notebook_task:
-            notebook_path: ../src/customer_360
+            notebook_path: ../src/customer_360.ipynb
         - task_key: transactionsummary_task
           depends_on:
             - task_key: customer360_task
           notebook_task:
-            notebook_path: ../src/transactions_summary
+            notebook_path: ../src/transactions_summary.ipynb
         
       environments:
         - environment_key: default

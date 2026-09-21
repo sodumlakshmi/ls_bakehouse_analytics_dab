@@ -1,3 +1,3 @@
 # prod_dab_bakehouse_analytics
 
-This is for bakehouse analytics
+This is for bakehouse analytics for testing asset bundles
